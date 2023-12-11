@@ -11,7 +11,8 @@ h1 {
     /* To align the text it verically centre */
     line-height: 6rem;
 }
-.choice{
+
+.choice {
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -19,27 +20,60 @@ h1 {
     align-items: center;
     justify-content: center;
 }
-img{
+
+img {
     height: 150px;
     width: 150px;
     /* To prevent images from destortion */
     object-fit: cover;
     border-radius: 50%;
 }
-.choices{
+
+.choices {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 4rem;
     margin-top: 4rem;
 }
-.choice:hover{
+
+.choice:hover {
     cursor: pointer;
     background-color: rgb(0, 0, 0);
     transition-duration: 0.4s;
-   
+
     transform: translateY(5px);
 }
-.score-board{
-    
+
+.score-board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score,
+#comp-score {
+    font-size: 4rem;
+}
+
+#msg {
+
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    /* It will decrease the length of black line */
+    display: inline;
+    padding: 1rem;
+    border-radius: 3rem;
+
+}
+
+.msg-container {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
