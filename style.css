@@ -22,7 +22,7 @@ h1 {
 }
 
 img {
-    
+
     height: 150px;
     width: 150px;
     /* To prevent images from destortion */
@@ -37,7 +37,7 @@ img {
     justify-content: center;
     gap: 4rem;
     margin-top: 4rem;
-    
+
 }
 
 .choice:hover {
@@ -79,4 +79,26 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media only screen and (max-width:580px) {
+
+    h1{
+        line-height: 6rem;
+        height: 10rem;
+        width: 300%;
+        font-size: 80px;
+    }   
+    .choices{
+        width: 280%;
+        padding-top: 80px;
+    }
+   .score-board{
+    width: 300%;
+    
+   }
+   .msg-container{
+    width: 300%;
+   }
+  
 }
